@@ -1,0 +1,24 @@
+#对象
+person:
+  name: xiaowang
+  age: 25
+  birth: 2021/04/20
+  student: false
+  #列表
+  hobby:
+    - run
+    - basketball
+    - movies
+  # map
+  maps: {key1: value1, key2: value2}
+  dog:
+    name: 小强
+    age: 3
+
+dog1:
+  name: wangcai
+  age: 4
+
+dog:
+  lastName: wangcaiaaa
+  age: 2

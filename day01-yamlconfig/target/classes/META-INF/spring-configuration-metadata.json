@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "dog",
+      "type": "com.wang.entity.Dog",
+      "sourceType": "com.wang.entity.Dog"
+    },
+    {
+      "name": "person",
+      "type": "com.wang.entity.Person",
+      "sourceType": "com.wang.entity.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "dog.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.wang.entity.Dog"
+    },
+    {
+      "name": "dog.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.wang.entity.Dog"
+    },
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.wang.entity.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.wang.entity.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "com.wang.entity.Dog",
+      "sourceType": "com.wang.entity.Person"
+    },
+    {
+      "name": "person.hobby",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.wang.entity.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.wang.entity.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.wang.entity.Person"
+    },
+    {
+      "name": "person.student",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.wang.entity.Person"
+    }
+  ],
+  "hints": []
+}
