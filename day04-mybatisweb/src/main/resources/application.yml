@@ -1,0 +1,35 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatis?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: 123456
+
+  #\u5173\u95ED\u6A21\u677F\u5F15\u64CE\u7684\u7F13\u5B58
+  thymeleaf:
+    cache: false
+
+  # \u914D\u7F6E\u95EE\u4EF7\u4F60\u7684\u771F\u5B9E\u4F4D\u7F6Ei18n.login
+  messages:
+    basename: i18n.login
+  mvc:
+    format:
+      date: yyyy-MM-dd
+
+# mybatis\u914D\u7F6E
+mybatis:
+  type-aliases-package: com.wang.entity
+  mapper-locations: classpath:mybatis/mapper/*Mapper.xml
+
+
+server:
+  port: 8081
+  servlet:
+    context-path: /wang
+
+
+
+
+
+
+
